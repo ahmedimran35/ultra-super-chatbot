@@ -41,7 +41,7 @@ model = genai.GenerativeModel(
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
 
-st.title("StreamCraft Conversational AI Assistant")
+st.title("Ultra Super AI Chatbot")
 
 # Function to get response from the Gemini model
 def get_response(query, chat_history):
